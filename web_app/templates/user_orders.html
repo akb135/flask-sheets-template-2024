@@ -4,13 +4,13 @@
 
 {% block content %}
 
-    <h1>User Orders</h1>
+    <h1 style="margin-top: 100px;">User Packages Ordered</h1>
 
-    <p class="lead">Here are your recent orders:</p>
+    <p class="lead">Here are your recent destination packages ordered:</p>
 
     {% if orders|length == 0 %}
         <p class="lead" >Oh, you have not yet placed an order. Please visit the
-            <a href="/products">products page</a>!
+            <a href="/products">Destinations page</a>!
         </p>
     {% else %}
         <div class="table-responsive">

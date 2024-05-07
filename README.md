@@ -114,11 +114,11 @@ python -m app.models.product
 
 This should populate the sheet with the following records:
 
-| id  | name         | description                                       | price  | url                                   | created_at |
-| --- | ------------ | ------------------------------------------------- | ------ | ------------------------------------- | ---------- |
-| 1   | Strawberries | Juicy organic strawberries.                       | 4.99   | https://picsum.photos/id/1080/360/200 | ...        |
-| 2   | Cup of Tea   | An individually-prepared tea or coffee of choice. | 3.49   | https://picsum.photos/id/225/360/200  | ...        |
-| 3   | Textbook     | It has all the answers.                           | 129.99 | https://picsum.photos/id/24/360/200   | ...        |
+| id  | name              | description                                       | price  | url                                  | created_at |
+| --- | ----------------- | ------------------------------------------------- | ------ | ------------------------------------ | ---------- |
+| 1   | English Castles   | Let us go back in history and visit UK castles.   | 649.99 | https://picsum.photos/id/142/360/200 | ...        |
+| 2   | Greece            | Check out the picturesque locales.                | 679.99 | https://picsum.photos/id/49/360/200  | ...        |
+| 3   | Himalayas (India) | Explore the highest peaks of the world.           | 799.99 | https://picsum.photos/id/43/360/200  | ...        |
 
 > NOTE: see the contents of the ["app/models/product.py"](/app/models/product.py) file for more details, and feel free to customize the `SEEDS` as desired.
 

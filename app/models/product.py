@@ -10,22 +10,22 @@ class Product(BaseModel):
 
     SEEDS = [
         {
-            'name': 'Strawberries',
-            'description': 'Juicy organic strawberries.',
-            'price': 4.99,
-            'url': 'https://picsum.photos/id/1080/360/200'
+            'name': 'English Castles',
+            'description': 'Let us go back in history and visit UK castles.',
+            'price': 649.99,
+            'url': 'https://picsum.photos/id/142/360/200'
         },
         {
-            'name': 'Cup of Tea',
-            'description': 'An individually-prepared tea or coffee of choice.',
-            'price': 3.49,
-            'url': 'https://picsum.photos/id/225/360/200'
+            'name': 'Greece',
+            'description': 'Check out the picturesque locales of Greece.',
+            'price': 679.99,
+            'url': 'https://picsum.photos/id/49/360/200'
         },
         {
-            'name': 'Textbook',
-            'description': 'It has all the answers.',
-            'price': 129.99,
-            'url': 'https://picsum.photos/id/24/360/200'
+            'name': 'Himalayas (India)',
+            'description': 'Explore the highest peaks of the world.',
+            'price': 799.99,
+            'url': 'https://picsum.photos/id/79/360/200'
         }
     ]
 
@@ -64,9 +64,9 @@ if __name__ == "__main__":
     print("------------")
     print("CREATING NEW PRODUCT...")
     params = {
-        "name": "Blueberries",
-        "price":3.99,
-        "description":"organic blues",
-        "url": "https://images.unsplash.com/photo-1498557850523-fd3d118b962e?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "name": "New York",
+        "price":599.99,
+        "description":"The most buzzing city of the United States",
+        "url": "https://picsum.photos/id/43/360/200"
     }
     Product.create(params)
